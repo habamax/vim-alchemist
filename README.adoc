@@ -8,8 +8,7 @@
 Very similar to beautiful https://github.com/romainl/Apprentice[Apprentice] made by https://github.com/romainl[Romain Lafourcade].
 
 * Built using awesome https://github.com/lifepillar/vim-colortemplate[Toolkit for Vim Color Scheme Designers!]
-* No syntax with bold or italic.
-* Simple.
+* No syntax with bold or italic. Simple.
 * Or do you want white background? Check link:https://github.com/habamax/vim-polar[polar].
 * Like dark gruvbox colors? Check link:https://github.com/habamax/vim-gruvbit[gruvbit].
 * Like black background? Check link:https://github.com/habamax/vim-habanight[habanight].
