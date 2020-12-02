@@ -5,7 +5,7 @@
 :!source-linenums-option:
 :imagesdir: images
 
-Very similar to beautiful https://github.com/romainl/Apprentice[Apprentice] made by @romainl.
+Very similar to beautiful https://github.com/romainl/Apprentice[Apprentice] made by https://github.com/romainl[Romain Lafourcade].
 
 * Built using awesome https://github.com/lifepillar/vim-colortemplate[Toolkit for Vim Color Scheme Designers!]
 * No syntax with bold or italic.
