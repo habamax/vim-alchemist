@@ -101,8 +101,8 @@ Question         color09    none
 
 Todo             background color07
 MatchParen       color00    color03
-Search           color00    color03
-IncSearch        color15    color02
+Search           color00    color02
+IncSearch        color00    color11
 WildMenu         background color11
 ColorColumn      none       color00
 Cursor           background foreground
