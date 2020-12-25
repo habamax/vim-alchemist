@@ -142,6 +142,5 @@ Ignore           none       none
 Title            color15    none
 
 
-;;; More highlights
-asciidoctorOption     color05   none
+;;; non-default
 asciidoctorListMarker color11   none
