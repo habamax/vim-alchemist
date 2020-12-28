@@ -140,7 +140,3 @@ Conceal          color07    none
 Ignore           none       none
 
 Title            color15    none
-
-
-;;; non-default
-asciidoctorListMarker color11   none
