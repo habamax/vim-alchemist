@@ -88,7 +88,7 @@ CursorLine       none       color16
 CursorColumn     none       color16
 CursorLineNr     none       color16
 QuickFixLine     none       color16
-SignColumn       none       none
+SignColumn       none       color00
 
 Underlined       color12    none underline
 
