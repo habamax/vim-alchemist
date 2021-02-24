@@ -9,10 +9,10 @@ Very similar to beautiful https://github.com/romainl/Apprentice[Apprentice] made
 
 * Built using awesome https://github.com/lifepillar/vim-colortemplate[Toolkit for Vim Color Scheme Designers!]
 * No syntax with bold or italic. Simple.
-* Or do you want white background? Check link:https://github.com/habamax/vim-polar[polar].
-* Like dark gruvbox colors? Check link:https://github.com/habamax/vim-gruvbit[gruvbit].
-* Like black background? Check link:https://github.com/habamax/vim-habanight[habanight].
-
+* Do you want white background? Check link:https://github.com/habamax/vim-polar[polar].
+* Do you want light background? Check link:https://github.com/habamax/vim-psionic[psionic].
+* Do you like dark gruvbox colors? Check link:https://github.com/habamax/vim-gruvbit[gruvbit].
+* Do you like black background? Check link:https://github.com/habamax/vim-habanight[habanight].
 
 == More than 1000 words
 
