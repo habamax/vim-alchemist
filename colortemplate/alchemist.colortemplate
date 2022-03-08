@@ -1,4 +1,4 @@
-; vim: ft=colortemplate
+; vim: ft=colortemplate cc=22,37,52 vsts=21,15,15,4
 Full name: alchemist
 Short name: alchemist
 Description: Dark mid-contrast colorscheme.
@@ -12,34 +12,34 @@ Background: dark
 
 
 ;;; Color palette
-Color: foreground #BCBCBC 250
-Color: background #262626 235
+Color: background    #262626        235
+Color: foreground    #BCBCBC        250
 
-Color: color00    #1C1C1C 234
-Color: color08    #444444 238
+Color: color00       #1C1C1C        234
+Color: color08       #444444        238
 
-Color: color01    #D75F5F 167
-Color: color09    #D787AF 175
+Color: color01       #D75F5F        167
+Color: color09       #FF875F        209
 
-Color: color02    #5F875F 65
-Color: color10    #87AF87 108
+Color: color02       #5F875F        65
+Color: color10       #87AF87        108
 
-Color: color03    #AF8700 136
-Color: color11    #D7AF5F 179
+Color: color03       #AF8700        136
+Color: color11       #D7AF5F        179
 
-Color: color04    #5F87AF 67
-Color: color12    #87AFD7 110
+Color: color04       #5F87AF        67
+Color: color12       #87AFD7        110
 
-Color: color05    #5F5F87 60
-Color: color13    #8787AF 103
+Color: color05       #5F5F87        60
+Color: color13       #8787AF        103
 
-Color: color06    #5F8787 66
-Color: color14    #5FAFAF 73
+Color: color06       #5F8787        66
+Color: color14       #5FAFAF        73
 
-Color: color07    #6C6C6C 242
-Color: color15    #FFFFFF 231
+Color: color07       #6C6C6C        242
+Color: color15       #FFFFFF        231
 
-Color: color16    #3A3A3A 237
+Color: color16       #3A3A3A        237
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -51,92 +51,92 @@ Variant: gui
 Variant: 256
 #if get(g:, '@optionprefix_transp_bg', 0)
 Variant: gui 256
-Normal           foreground none
+Normal               foreground     none
 #else
-Normal           foreground background
+Normal               foreground     background
 #endif
 
 
-EndOfBuffer      color08    none
-Statusline       background color06
-StatuslineNC     foreground color08
-StatuslineTerm   background color06
-StatuslineTermNC foreground color08
-VertSplit        color08    color08
+EndOfBuffer          color08        none
+Statusline           background     color06
+StatuslineNC         foreground     color08
+StatuslineTerm       background     color06
+StatuslineTermNC     foreground     color08
+VertSplit            color08        color08
 
-Pmenu            none       color08
-PmenuSel         background color11
-PmenuSbar        none       color07
-PmenuThumb       none       color15
+Pmenu                none           color08
+PmenuSel             background     color11
+PmenuSbar            none           color07
+PmenuThumb           none           color15
 
-TabLine          foreground color08
-TabLineFill      color06    color08
-TabLineSel       background color06
+TabLine              foreground     color08
+TabLineFill          color06        color08
+TabLineSel           background     color06
 
-ToolbarLine      none       color00
-ToolbarButton    background color10
+ToolbarLine          none           color00
+ToolbarButton        background     color10
 
-NonText          color08    none
-SpecialKey       color08    none
+NonText              color08        none
+SpecialKey           color08        none
 
-Folded           color07    color00
-Visual           background color12
-VisualNOS        background color12
-LineNr           color07    color00
-FoldColumn       color07    color00
-CursorLine       none       color16
-CursorColumn     none       color16
-CursorLineNr     none       color16
-QuickFixLine     none       color16
-SignColumn       none       color00
+Folded               color07        color00
+Visual               background     color12
+VisualNOS            background     color12
+LineNr               color07        color00
+FoldColumn           color07        color00
+CursorLine           none           color16
+CursorColumn         none           color16
+CursorLineNr         color11        color00        bold
+QuickFixLine         none           color16
+SignColumn           none           color00
 
-Underlined       color12    none underline
+Underlined           color12        none           underline
 
-Error            color01    none
-ErrorMsg         color01    none
-ModeMsg          background color03
-WarningMsg       color03    none
-MoreMsg          color10    none
-Question         color09    none
+Error                color01        none           reverse
+ErrorMsg             color01        none           reverse
+ModeMsg              background     color03
+WarningMsg           color09        none
+MoreMsg              color10        none
+Question             color13        none
 
-Todo             background color07
-MatchParen       color00    color03
-Search           color00    color02
-IncSearch        color00    color11
-WildMenu         background color11
-ColorColumn      none       color00
-Cursor           background foreground
-lCursor          background color01
+Todo                 background     color07
+MatchParen           color00        color03
+Search               color00        color02
+IncSearch            color00        color11
+WildMenu             background     color11
+ColorColumn          none           color00
+Cursor               background     foreground
+lCursor              background     color01
 
-DiffAdd          background color10
-DiffChange       none       none
-DiffText         background color13
-DiffDelete       color01    color00
+DiffAdd              background     color10
+DiffChange           none           none
+DiffText             background     color13
+DiffDelete           color01        color00
 
-SpellBad         color01    none t=underline g=undercurl s=color01
-SpellCap         color09    none t=underline g=undercurl s=color09
-SpellLocal       color03    none t=underline g=undercurl s=color03
-SpellRare        color11    none t=underline g=undercurl s=color11
+SpellBad             color01        none           t=underline g=undercurl s=color01
+SpellCap             color09        none           t=underline g=undercurl s=color09
+SpellLocal           color03        none           t=underline g=undercurl s=color03
+SpellRare            color11        none           t=underline g=undercurl s=color11
 
 
 ;;; :h group-names
-Comment          color07    none
+Comment              color07        none
 
-Identifier       color04    none
-Function         color12    none
-Statement        color11    none
-Constant         color09    none
-String           color10    none
-Character        color10    none
-PreProc          color06    none
-Type             color13    none
-Special          color02    none
-SpecialChar      color05    none
-Tag              color14    none
-SpecialComment   color14    none
+Identifier           color04        none
+Function             color12        none
+Statement            color11        none
+Constant             color09        none
+String               color10        none
+Character            color10        none
+PreProc              color06        none
+Type                 color13        none
+Special              color02        none
+SpecialChar          color05        none
+Tag                  color14        none
+SpecialComment       color14        none
 
-Directory        color14    none
-Conceal          color07    none
-Ignore           none       none
+Directory            color14        none
+Conceal              color07        none
+Ignore               none           none
 
-Title            color15    none
+Title                color15        none
