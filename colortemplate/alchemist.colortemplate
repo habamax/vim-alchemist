@@ -18,8 +18,8 @@ Color: foreground    #BCBCBC        250
 Color: color00       #1C1C1C        234
 Color: color08       #444444        238
 
-Color: color01       #D75F5F        167
-Color: color09       #FF875F        209
+Color: color01       #AF5F5F        131
+Color: color09       #D7875F        173
 
 Color: color02       #5F875F        65
 Color: color10       #87AF87        108
