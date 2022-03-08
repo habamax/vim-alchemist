@@ -40,7 +40,7 @@ Color: color07       #6C6C6C        242
 Color: color15       #FFFFFF        231
 
 Color: color16       #3A3A3A        237
-Color: colorC        #3A3A3A        237
+Color: colorC        #FFAF5F        215
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -87,7 +87,7 @@ LineNr               color07        color00
 FoldColumn           color07        color00
 CursorLine           none           color16
 CursorColumn         none           color16
-CursorLineNr         color11        color00        bold
+CursorLineNr         colorC         color00        bold
 QuickFixLine         none           color16
 SignColumn           none           color00
 
@@ -106,7 +106,7 @@ Search               color00        color02
 IncSearch            color00        color11
 WildMenu             background     color11
 ColorColumn          none           color00
-Cursor               background     foreground
+Cursor               background     colorC
 lCursor              background     color01
 
 DiffAdd              background     color10
